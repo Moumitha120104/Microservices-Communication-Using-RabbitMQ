@@ -79,7 +79,7 @@ def listen_for_requests():
                 existing_quantity = crud.get_storage_quantity(connection, order["Product_ID"])
                 if restock_time is not None:
                     current_time = datetime.datetime.now()
-                    minutes_to_add = (order["Quantity"] - existing_quantity) * restock_time
+                    minutes_to_add = (order["Quantity"]) * restock_time
                     new_date_time = current_time + datetime.timedelta(minutes=minutes_to_add)
                     request = {
                     "Product_ID": order["Product_ID"],
