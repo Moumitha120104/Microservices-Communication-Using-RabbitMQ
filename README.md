@@ -39,18 +39,16 @@ docker-compose build
 docker-compose up
 ```
 
-
 ### Accessing the Application
 
 To interact with the inventory management system, a basic Node.js client `basic_client.js` has been provided. Follow these steps to run the client and access the application:
 
 1. Ensure you have Node.js installed on your system.
 2. Install the required dependencies for the Node.js client:
-3. ```bash
+   ```bash
    npm install
    ```
 4. Run the Node.js client:
-
    ```bash
    node basic_client.js
    ```
