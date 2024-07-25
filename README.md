@@ -2,8 +2,6 @@
 
 ## Project Description
 
-This project was developed as a part of the Semester 6 - Cloud Computing course at PES University.
-
 This project aims to develop an inventory management system using a microservices architecture. The system efficiently manages inventory items, tracks stock levels, and handles orders through independent and scalable microservices. RabbitMQ is utilized for inter-service communication, ensuring reliable message passing, and Docker is used for containerization, facilitating scalability, modularity, and ease of deployment.
 
 ## High Level Design
